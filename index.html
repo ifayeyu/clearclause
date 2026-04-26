@@ -1,0 +1,1319 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Free Freelance Contract Generator — ClearClause</title>
+  <meta name="description" content="Generate a professional freelance contract in minutes. Free customizable templates for designers, developers, photographers & writers. No signup. Instant PDF download.">
+  <meta name="keywords" content="freelance contract generator, free freelance contract template, independent contractor agreement, freelance agreement generator, freelance contract pdf">
+  <link rel="canonical" href="https://clearclause.co/">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+
+  <meta property="og:title" content="Free Freelance Contract Generator — ClearClause">
+  <meta property="og:description" content="Create a professional freelance contract in minutes. Free, no signup, instant PDF download.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="https://clearclause.co/og-image.png">
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebApplication",
+    "name": "Free Freelance Contract Generator — ClearClause",
+    "url": "https://clearclause.co",
+    "description": "Generate professional freelance contracts instantly. Free PDF download. No signup required.",
+    "applicationCategory": "BusinessApplication",
+    "operatingSystem": "Web Browser",
+    "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" }
+  }
+  </script>
+
+  <style>
+    *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+
+    :root {
+      --blue: #1f4fff;
+      --blue-light: #eef2ff;
+      --blue-mid: #1f4fff;
+      --border: #e4e4e4;
+      --bg: #f5f6f8;
+      --text: #1a1a1a;
+      --muted: #666;
+      --card: #ffffff;
+      --radius: 12px;
+    }
+
+    body {
+      font-family: 'Roboto', -apple-system, BlinkMacSystemFont, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      font-size: 14px;
+      line-height: 1.6;
+    }
+
+    /* ── HEADER ── */
+    header {
+      background: #fff;
+      border-bottom: 1px solid var(--border);
+      padding: 0 40px;
+      height: 58px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      position: sticky;
+      top: 0;
+      z-index: 200;
+    }
+    .logo {
+      font-size: 22px;
+      font-weight: 700;
+      text-decoration: none;
+      letter-spacing: -0.5px;
+    }
+    .logo-clear { color: var(--text); }
+    .logo-clause { color: var(--blue); }
+
+    nav a {
+      font-size: 14px;
+      font-weight: 500;
+      color: var(--blue);
+      text-decoration: none;
+      padding: 8px 20px;
+      border-radius: 50px;
+      border: 1.5px solid var(--blue);
+      transition: all 0.15s;
+    }
+    nav a:hover {
+      background: var(--blue);
+      color: #fff;
+    }
+
+    /* ── AD ZONES ── */
+    .ad-zone {
+      background: #f7f7f7;
+      border: 1px dashed #d0d0d0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #ccc;
+      font-size: 11px;
+      border-radius: 6px;
+      letter-spacing: 0.03em;
+    }
+    .ad-wrap {
+      padding: 14px 40px;
+      display: flex;
+      justify-content: center;
+      background: #fff;
+      border-bottom: 1px solid var(--border);
+    }
+    .ad-leader { width: 100%; max-width: 728px; height: 90px; }
+    .ad-rect { width: 300px; height: 250px; }
+
+    /* ── HERO ── */
+    .hero {
+      background: #fff;
+      border-bottom: 1px solid var(--border);
+      padding: 44px 40px 34px;
+      text-align: center;
+    }
+    .hero h1 {
+      font-size: 32px;
+      font-weight: 700;
+      line-height: 1.2;
+      margin-bottom: 12px;
+      letter-spacing: -0.5px;
+    }
+    .hero h1 em { color: var(--blue); font-style: normal; }
+    .hero p {
+      font-size: 15px;
+      color: var(--muted);
+      max-width: 520px;
+      margin: 0 auto 20px;
+    }
+    .badges { display: flex; gap: 8px; justify-content: center; flex-wrap: wrap; }
+    .badge {
+      font-size: 12px;
+      font-weight: 500;
+      background: var(--blue-light);
+      color: var(--blue);
+      padding: 5px 16px;
+      border-radius: 50px;
+    }
+
+    /* ── LAYOUT ── */
+    .page {
+      max-width: 1080px;
+      margin: 0 auto;
+      padding: 24px 20px;
+      display: grid;
+      grid-template-columns: 1fr 300px;
+      gap: 20px;
+      align-items: start;
+    }
+    @media (max-width: 820px) {
+      .page { grid-template-columns: 1fr; }
+      .sidebar { order: -1; }
+    }
+
+    /* ── STEP INDICATOR ── */
+    .progress-card {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 22px 28px;
+      margin-bottom: 14px;
+    }
+    .steps-track {
+      display: flex;
+      align-items: center;
+    }
+    .step-item {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 7px;
+    }
+    .step-circle {
+      width: 34px;
+      height: 34px;
+      border-radius: 50%;
+      border: 2px solid #e0e0e0;
+      background: #fff;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition: all 0.25s ease;
+      flex-shrink: 0;
+    }
+    .step-num {
+      font-size: 13px;
+      font-weight: 600;
+      color: #bbb;
+      line-height: 1;
+    }
+    .step-check {
+      display: none;
+    }
+    /* active */
+    .step-item.active .step-circle {
+      border-color: var(--blue);
+      background: var(--blue);
+    }
+    .step-item.active .step-num { color: #fff; }
+    /* done */
+    .step-item.done .step-circle {
+      border-color: var(--blue);
+      background: var(--blue);
+    }
+    .step-item.done .step-num { display: none; }
+    .step-item.done .step-check { display: flex; align-items: center; justify-content: center; }
+
+    .step-label {
+      font-size: 11px;
+      font-weight: 500;
+      color: #bbb;
+      white-space: nowrap;
+    }
+    .step-item.active .step-label { color: var(--blue); font-weight: 600; }
+    .step-item.done .step-label { color: var(--blue); }
+
+    .step-connector {
+      flex: 1;
+      height: 2px;
+      background: #e8e8e8;
+      margin-bottom: 18px;
+      transition: background 0.3s ease;
+    }
+    .step-connector.done { background: var(--blue); }
+
+    /* ── FORM CARD ── */
+    .form-card {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 28px;
+    }
+    .form-card h2 {
+      font-size: 20px;
+      font-weight: 700;
+      margin-bottom: 4px;
+      letter-spacing: -0.3px;
+    }
+    .form-subtitle { font-size: 13px; color: var(--muted); margin-bottom: 24px; }
+
+    .step-panel { display: none; }
+    .step-panel.active { display: block; }
+
+    /* ── CONTRACT TYPE PILLS ── */
+    .type-pills {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      gap: 10px;
+      margin-bottom: 24px;
+    }
+    @media (max-width: 560px) { .type-pills { grid-template-columns: 1fr 1fr; } }
+
+    .type-pill {
+      border: 1.5px solid var(--border);
+      border-radius: 50px;
+      padding: 11px 14px;
+      cursor: pointer;
+      transition: all 0.15s;
+      text-align: center;
+      font-size: 12px;
+      font-weight: 500;
+      color: var(--muted);
+      background: #fff;
+      line-height: 1.35;
+      user-select: none;
+    }
+    .type-pill:hover {
+      border-color: var(--blue);
+      color: var(--blue);
+    }
+    .type-pill.selected {
+      border-color: var(--blue);
+      background: var(--blue);
+      color: #fff;
+    }
+
+    /* ── FORM FIELDS ── */
+    .frow { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; margin-bottom: 14px; }
+    .frow.full { grid-template-columns: 1fr; }
+    .field { display: flex; flex-direction: column; gap: 5px; }
+    label { font-size: 12px; font-weight: 500; color: #555; }
+
+    input, select, textarea {
+      font-family: 'Roboto', sans-serif;
+      font-size: 14px;
+      padding: 10px 14px;
+      border: 1.5px solid #e0e0e0;
+      border-radius: 10px;
+      background: #fff;
+      color: var(--text);
+      width: 100%;
+      transition: border-color 0.15s, box-shadow 0.15s;
+      -webkit-appearance: none;
+    }
+    input:focus, select:focus, textarea:focus {
+      outline: none;
+      border-color: var(--blue);
+      box-shadow: 0 0 0 3px rgba(31,79,255,0.1);
+    }
+    select {
+      background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8' viewBox='0 0 12 8'%3E%3Cpath d='M1 1l5 5 5-5' stroke='%23999' stroke-width='1.5' fill='none' stroke-linecap='round'/%3E%3C/svg%3E");
+      background-repeat: no-repeat;
+      background-position: right 12px center;
+      padding-right: 32px;
+      cursor: pointer;
+    }
+    textarea { resize: vertical; min-height: 92px; line-height: 1.6; }
+    .hint { font-size: 11px; color: #aaa; margin-top: 2px; }
+
+    /* ── SECTION DIVIDER LABEL ── */
+    .section-label {
+      font-size: 10px;
+      font-weight: 700;
+      color: #aaa;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      margin: 20px 0 14px;
+      padding-bottom: 8px;
+      border-bottom: 1px solid #f0f0f0;
+    }
+
+    /* ── NAV BUTTONS ── */
+    .fnav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-top: 26px;
+      padding-top: 18px;
+      border-top: 1px solid #f0f0f0;
+    }
+    .btn {
+      font-family: 'Roboto', sans-serif;
+      font-size: 14px;
+      font-weight: 500;
+      padding: 10px 28px;
+      border-radius: 50px;
+      border: none;
+      cursor: pointer;
+      transition: all 0.15s;
+      letter-spacing: 0.01em;
+    }
+    .btn-primary {
+      background: var(--blue);
+      color: #fff;
+    }
+    .btn-primary:hover { background: #1840e0; }
+
+    .btn-secondary {
+      background: transparent;
+      color: var(--muted);
+      border: 1.5px solid #e0e0e0;
+    }
+    .btn-secondary:hover { border-color: #bbb; color: var(--text); }
+
+    /* ── DISCLAIMER ── */
+    .disclaimer {
+      background: #fffbea;
+      border: 1px solid #f0d080;
+      border-radius: 10px;
+      padding: 13px 16px;
+      margin-top: 16px;
+      font-size: 12px;
+      color: #7a6000;
+      line-height: 1.6;
+    }
+
+    /* ── SIDEBAR ── */
+    .sidebar { display: flex; flex-direction: column; gap: 16px; }
+
+    .preview-card {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      overflow: hidden;
+    }
+    .preview-header {
+      padding: 14px 16px 10px;
+      border-bottom: 1px solid #f0f0f0;
+    }
+    .preview-header h3 {
+      font-size: 10px;
+      font-weight: 700;
+      color: #aaa;
+      text-transform: uppercase;
+      letter-spacing: 0.12em;
+    }
+    .preview-body {
+      padding: 14px 16px;
+    }
+    .preview-scroll {
+      height: 320px;
+      overflow-y: auto;
+      font-size: 10.5px;
+      color: #555;
+      line-height: 1.75;
+      padding-right: 4px;
+    }
+    .preview-scroll::-webkit-scrollbar { width: 3px; }
+    .preview-scroll::-webkit-scrollbar-thumb { background: #e0e0e0; border-radius: 99px; }
+
+    .preview-placeholder {
+      height: 320px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+      color: #ccc;
+    }
+    .preview-placeholder svg { opacity: 0.3; }
+    .preview-placeholder p {
+      font-size: 12px;
+      font-style: italic;
+      text-align: center;
+      max-width: 200px;
+      line-height: 1.5;
+    }
+
+    .preview-footer {
+      padding: 12px 16px 16px;
+      border-top: 1px solid #f0f0f0;
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+    }
+
+    /* Download button — locked until step 5 */
+    .btn-download {
+      font-family: 'Roboto', sans-serif;
+      background: var(--blue);
+      color: #fff;
+      width: 100%;
+      padding: 12px;
+      font-size: 13px;
+      font-weight: 600;
+      border-radius: 50px;
+      border: none;
+      cursor: pointer;
+      transition: all 0.2s;
+      letter-spacing: 0.02em;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 7px;
+    }
+    .btn-download:hover:not(:disabled) { background: #1840e0; }
+    .btn-download:disabled {
+      background: #e8e8e8;
+      color: #bbb;
+      cursor: not-allowed;
+    }
+
+    .btn-print {
+      font-family: 'Roboto', sans-serif;
+      background: transparent;
+      color: var(--blue);
+      width: 100%;
+      padding: 10px;
+      font-size: 13px;
+      font-weight: 500;
+      border-radius: 50px;
+      border: 1.5px solid var(--blue);
+      cursor: pointer;
+      transition: all 0.15s;
+    }
+    .btn-print:hover { background: var(--blue-light); }
+
+    /* Locked state hint */
+    .download-hint {
+      font-size: 11px;
+      color: #bbb;
+      text-align: center;
+      transition: opacity 0.2s;
+    }
+    .download-hint.hidden { display: none; }
+
+    /* ── FOOTER ── */
+    footer {
+      border-top: 1px solid var(--border);
+      background: #fff;
+      padding: 22px 40px;
+      text-align: center;
+      font-size: 12px;
+      color: #aaa;
+    }
+    .footer-links {
+      display: flex;
+      gap: 24px;
+      justify-content: center;
+      margin-bottom: 10px;
+    }
+    .footer-links a {
+      color: #888;
+      text-decoration: none;
+      font-weight: 500;
+      transition: color 0.15s;
+    }
+    .footer-links a:hover { color: var(--blue); }
+
+    /* ── TRUST SECTION ── */
+    .trust-section-wrap {
+      background: #fff;
+      border-top: 1px solid var(--border);
+      border-bottom: 1px solid var(--border);
+      padding: 48px 20px;
+      margin-top: 8px;
+    }
+    .trust-section {
+      max-width: 1080px;
+      margin: 0 auto;
+    }
+    .trust-section-header {
+      text-align: center;
+      margin-bottom: 36px;
+    }
+    .trust-section-header h2 {
+      font-size: 24px;
+      font-weight: 700;
+      letter-spacing: -0.4px;
+      margin-bottom: 8px;
+    }
+    .trust-section-header p {
+      font-size: 14px;
+      color: var(--muted);
+    }
+    .trust-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 24px;
+    }
+    @media (max-width: 760px) { .trust-grid { grid-template-columns: 1fr 1fr; } }
+    @media (max-width: 480px) { .trust-grid { grid-template-columns: 1fr; } }
+
+    .trust-item {
+      display: flex;
+      align-items: flex-start;
+      gap: 14px;
+    }
+    .trust-icon {
+      width: 36px;
+      height: 36px;
+      border-radius: 50%;
+      background: var(--blue-light);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-shrink: 0;
+    }
+    .trust-icon svg { width: 16px; height: 16px; }
+    .trust-text strong {
+      display: block;
+      font-size: 13px;
+      font-weight: 600;
+      color: var(--text);
+      margin-bottom: 3px;
+    }
+    .trust-text span {
+      font-size: 12px;
+      color: var(--muted);
+      line-height: 1.55;
+    }
+
+    /* ── PRINT/PDF STYLES ── */
+    .contract-doc { font-family: Georgia, 'Times New Roman', serif; font-size: 12px; line-height: 1.8; color: #111; }
+    .contract-doc h2 { text-align: center; font-size: 14px; letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 4px; }
+    .contract-doc .eff-date { text-align: center; font-size: 11px; color: #666; margin-bottom: 24px; }
+    .contract-doc h4 { font-size: 11px; text-transform: uppercase; letter-spacing: 0.07em; border-bottom: 1px solid #ccc; padding-bottom: 3px; margin: 18px 0 7px; }
+    .contract-doc .sig-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 40px; margin-top: 40px; }
+    .contract-doc .sig-block { border-top: 1px solid #999; padding-top: 8px; }
+    .contract-doc .gen-note { font-size: 10px; color: #bbb; text-align: center; margin-top: 28px; }
+  </style>
+</head>
+<body>
+
+<!-- ── HEADER ── -->
+<header>
+  <a href="/" class="logo">
+    <span class="logo-clear">Clear</span><span class="logo-clause">Clause</span>
+  </a>
+  <nav>
+    <a href="faq.html">FAQs</a>
+  </nav>
+</header>
+
+<!-- ── TOP AD ── -->
+<div class="ad-wrap">
+  <div class="ad-zone ad-leader">Advertisement — 728×90</div>
+</div>
+
+<!-- ── HERO ── -->
+<div class="hero">
+  <h1>Free <em>Freelance Contract</em> Generator</h1>
+  <p>Create a professional, legally sound contract in minutes. No signup. No watermarks. Instant PDF download.</p>
+  <div class="badges">
+    <span class="badge">100% Free</span>
+    <span class="badge">No Signup Required</span>
+    <span class="badge">6 Contract Types</span>
+    <span class="badge">Instant PDF Download</span>
+    <span class="badge">Updated 2026</span>
+  </div>
+</div>
+
+<!-- ── MAIN ── -->
+<div class="page">
+
+  <!-- LEFT: FORM -->
+  <div>
+
+    <!-- Step Indicator -->
+    <div class="progress-card">
+      <div class="steps-track">
+
+        <div class="step-item active" id="si1">
+          <div class="step-circle">
+            <span class="step-num">1</span>
+            <span class="step-check">
+              <svg width="13" height="11" viewBox="0 0 13 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M1.5 5.5L5 9L11.5 1.5" stroke="white" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </span>
+          </div>
+          <div class="step-label">Type</div>
+        </div>
+
+        <div class="step-connector" id="sc1"></div>
+
+        <div class="step-item" id="si2">
+          <div class="step-circle">
+            <span class="step-num">2</span>
+            <span class="step-check">
+              <svg width="13" height="11" viewBox="0 0 13 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M1.5 5.5L5 9L11.5 1.5" stroke="white" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </span>
+          </div>
+          <div class="step-label">Your Info</div>
+        </div>
+
+        <div class="step-connector" id="sc2"></div>
+
+        <div class="step-item" id="si3">
+          <div class="step-circle">
+            <span class="step-num">3</span>
+            <span class="step-check">
+              <svg width="13" height="11" viewBox="0 0 13 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M1.5 5.5L5 9L11.5 1.5" stroke="white" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </span>
+          </div>
+          <div class="step-label">Client</div>
+        </div>
+
+        <div class="step-connector" id="sc3"></div>
+
+        <div class="step-item" id="si4">
+          <div class="step-circle">
+            <span class="step-num">4</span>
+            <span class="step-check">
+              <svg width="13" height="11" viewBox="0 0 13 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M1.5 5.5L5 9L11.5 1.5" stroke="white" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </span>
+          </div>
+          <div class="step-label">Project</div>
+        </div>
+
+        <div class="step-connector" id="sc4"></div>
+
+        <div class="step-item" id="si5">
+          <div class="step-circle">
+            <span class="step-num">5</span>
+            <span class="step-check">
+              <svg width="13" height="11" viewBox="0 0 13 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M1.5 5.5L5 9L11.5 1.5" stroke="white" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </span>
+          </div>
+          <div class="step-label">Payment</div>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- Form Card -->
+    <div class="form-card">
+
+      <!-- STEP 1: CONTRACT TYPE -->
+      <div class="step-panel active" id="step1">
+        <h2>Choose your contract type</h2>
+        <p class="form-subtitle">Select the type that best matches your freelance work</p>
+        <div class="type-pills">
+          <div class="type-pill selected" onclick="pickType(this,'general')">General Freelance / Consulting</div>
+          <div class="type-pill" onclick="pickType(this,'graphic')">Graphic Design / Branding</div>
+          <div class="type-pill" onclick="pickType(this,'photography')">Photo Shoots / Events</div>
+          <div class="type-pill" onclick="pickType(this,'copywriting')">Content Writing &amp; Copywriting</div>
+          <div class="type-pill" onclick="pickType(this,'webdesign')">Digital Products &amp; Web Design</div>
+          <div class="type-pill" onclick="pickType(this,'socialmedia')">Social Media Management</div>
+        </div>
+        <div class="fnav">
+          <div></div>
+          <button class="btn btn-primary" onclick="go(2)">Next: Your Info →</button>
+        </div>
+      </div>
+
+      <!-- STEP 2: YOUR INFO -->
+      <div class="step-panel" id="step2">
+        <h2>Your information</h2>
+        <p class="form-subtitle">The freelancer or agency providing services</p>
+        <div class="frow">
+          <div class="field">
+            <label>Full name *</label>
+            <input id="fName" type="text" placeholder="Your full name" oninput="updatePreview()">
+          </div>
+          <div class="field">
+            <label>Business / LLC name</label>
+            <input id="fBiz" type="text" placeholder="Optional" oninput="updatePreview()">
+          </div>
+        </div>
+        <div class="frow">
+          <div class="field">
+            <label>Email address *</label>
+            <input id="fEmail" type="email" placeholder="your@email.com" oninput="updatePreview()">
+          </div>
+          <div class="field">
+            <label>Phone</label>
+            <input id="fPhone" type="tel" placeholder="+1 (555) 000-0000" oninput="updatePreview()">
+          </div>
+        </div>
+        <div class="frow full">
+          <div class="field">
+            <label>City, State, Country</label>
+            <input id="fAddress" type="text" placeholder="e.g. Los Angeles, CA, USA" oninput="updatePreview()">
+          </div>
+        </div>
+        <div class="fnav">
+          <button class="btn btn-secondary" onclick="go(1)">← Back</button>
+          <button class="btn btn-primary" onclick="go(3)">Next: Client Info →</button>
+        </div>
+      </div>
+
+      <!-- STEP 3: CLIENT -->
+      <div class="step-panel" id="step3">
+        <h2>Client information</h2>
+        <p class="form-subtitle">The person or company hiring you</p>
+        <div class="frow">
+          <div class="field">
+            <label>Client full name *</label>
+            <input id="cName" type="text" placeholder="Client's full name" oninput="updatePreview()">
+          </div>
+          <div class="field">
+            <label>Company name</label>
+            <input id="cCompany" type="text" placeholder="Company (if applicable)" oninput="updatePreview()">
+          </div>
+        </div>
+        <div class="frow">
+          <div class="field">
+            <label>Client email *</label>
+            <input id="cEmail" type="email" placeholder="client@company.com" oninput="updatePreview()">
+          </div>
+          <div class="field">
+            <label>Client phone</label>
+            <input id="cPhone" type="tel" placeholder="+1 (555) 000-0000" oninput="updatePreview()">
+          </div>
+        </div>
+        <div class="frow full">
+          <div class="field">
+            <label>Client address</label>
+            <input id="cAddress" type="text" placeholder="City, State, Country" oninput="updatePreview()">
+          </div>
+        </div>
+        <div class="fnav">
+          <button class="btn btn-secondary" onclick="go(2)">← Back</button>
+          <button class="btn btn-primary" onclick="go(4)">Next: Project Details →</button>
+        </div>
+      </div>
+
+      <!-- STEP 4: PROJECT -->
+      <div class="step-panel" id="step4">
+        <h2>Project details</h2>
+        <p class="form-subtitle">Scope of work, deliverables, and timeline</p>
+        <div class="frow full">
+          <div class="field">
+            <label>Services &amp; deliverables *</label>
+            <textarea id="pDesc" placeholder="Describe the services you will provide and what you will deliver. Be specific — this protects you legally." oninput="updatePreview()"></textarea>
+          </div>
+        </div>
+        <div class="frow">
+          <div class="field">
+            <label>Project start date *</label>
+            <input id="pStart" type="date" oninput="updatePreview()">
+          </div>
+          <div class="field">
+            <label>Deadline / end date</label>
+            <input id="pEnd" type="date" oninput="updatePreview()">
+          </div>
+        </div>
+        <div class="frow full">
+          <div class="field">
+            <label>Revision rounds included</label>
+            <select id="pRevisions" oninput="updatePreview()">
+              <option value="1">1 round of revisions</option>
+              <option value="2" selected>2 rounds of revisions</option>
+              <option value="3">3 rounds of revisions</option>
+              <option value="unlimited">Unlimited revisions</option>
+            </select>
+            <span class="hint">Extra revisions billed at your hourly rate</span>
+          </div>
+        </div>
+        <div class="fnav">
+          <button class="btn btn-secondary" onclick="go(3)">← Back</button>
+          <button class="btn btn-primary" onclick="go(5)">Next: Payment →</button>
+        </div>
+      </div>
+
+      <!-- STEP 5: PAYMENT + TERMS -->
+      <div class="step-panel" id="step5">
+        <h2>Payment &amp; final terms</h2>
+        <p class="form-subtitle">How you get paid, IP ownership, and jurisdiction</p>
+
+        <div class="section-label">Payment</div>
+
+        <div class="frow">
+          <div class="field">
+            <label>Total project fee *</label>
+            <input id="pFee" type="text" placeholder="e.g. $3,500" oninput="updatePreview()">
+          </div>
+          <div class="field">
+            <label>Currency</label>
+            <select id="pCurrency" oninput="updatePreview()">
+              <option value="USD">USD — US Dollar</option>
+              <option value="EUR">EUR — Euro</option>
+              <option value="GBP">GBP — British Pound</option>
+              <option value="CAD">CAD — Canadian Dollar</option>
+              <option value="AUD">AUD — Australian Dollar</option>
+            </select>
+          </div>
+        </div>
+        <div class="frow full">
+          <div class="field">
+            <label>Payment structure</label>
+            <select id="pStructure" oninput="updatePreview()">
+              <option value="50-50">50% upfront, 50% on completion</option>
+              <option value="100up">100% paid upfront before work begins</option>
+              <option value="thirds">33% upfront, 33% midpoint, 34% on completion</option>
+              <option value="net30">Full payment within 30 days of completion</option>
+              <option value="net15">Full payment within 15 days of completion</option>
+            </select>
+          </div>
+        </div>
+        <div class="frow">
+          <div class="field">
+            <label>Late payment fee</label>
+            <select id="pLate" oninput="updatePreview()">
+              <option value="none">No late fee</option>
+              <option value="1.5% per month" selected>1.5% per month</option>
+              <option value="2% per month">2% per month</option>
+              <option value="$50 per week">$50 flat per week</option>
+            </select>
+          </div>
+          <div class="field">
+            <label>Kill fee (if client cancels)</label>
+            <select id="pKill" oninput="updatePreview()">
+              <option value="25% of remaining balance">25% of remaining balance</option>
+              <option value="50% of remaining balance" selected>50% of remaining balance</option>
+              <option value="100% of remaining balance">100% of remaining balance</option>
+              <option value="none">No kill fee</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="section-label">Legal Terms</div>
+
+        <div class="frow full">
+          <div class="field">
+            <label>Intellectual property ownership</label>
+            <select id="tIP" oninput="updatePreview()">
+              <option value="client-paid">Client owns all work upon receipt of full payment</option>
+              <option value="freelancer-until">Freelancer retains ownership until full payment received</option>
+              <option value="license-only">Freelancer retains IP; grants client a usage license</option>
+            </select>
+          </div>
+        </div>
+        <div class="frow">
+          <div class="field">
+            <label>Confidentiality</label>
+            <select id="tConf" oninput="updatePreview()">
+              <option value="mutual">Mutual — both parties keep info confidential</option>
+              <option value="client-only">Client's information is confidential</option>
+              <option value="none">No confidentiality clause</option>
+            </select>
+          </div>
+          <div class="field">
+            <label>Portfolio rights</label>
+            <select id="tPortfolio" oninput="updatePreview()">
+              <option value="yes">Freelancer may show work in portfolio</option>
+              <option value="no">Work is confidential — no portfolio use</option>
+            </select>
+          </div>
+        </div>
+        <div class="frow">
+          <div class="field">
+            <label>Governing jurisdiction *</label>
+            <input id="tJurisdiction" type="text" placeholder="e.g. California, USA" oninput="updatePreview()">
+          </div>
+          <div class="field">
+            <label>Contract effective date</label>
+            <input id="tDate" type="date" oninput="updatePreview()">
+          </div>
+        </div>
+
+        <div class="disclaimer">
+          <strong>Disclaimer:</strong> This generated contract is a template for informational purposes only. It is not legal advice. Consider having a qualified attorney review before signing.
+        </div>
+
+        <div class="fnav">
+          <button class="btn btn-secondary" onclick="go(4)">← Back</button>
+          <button class="btn btn-primary" onclick="downloadPDF()">⬇ Download PDF Contract</button>
+        </div>
+      </div>
+
+    </div><!-- /form-card -->
+  </div><!-- /left col -->
+
+  <!-- RIGHT: SIDEBAR -->
+  <div class="sidebar">
+
+    <!-- Ad rectangle -->
+    <div class="ad-zone ad-rect">Advertisement — 300×250</div>
+
+    <!-- Template Preview -->
+    <div class="preview-card">
+      <div class="preview-header">
+        <h3>Template Preview</h3>
+      </div>
+      <div class="preview-body">
+        <div id="previewPlaceholder" class="preview-placeholder">
+          <svg width="40" height="48" viewBox="0 0 40 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <rect x="0.5" y="0.5" width="39" height="47" rx="3.5" fill="#f5f6f8" stroke="#e0e0e0"/>
+            <rect x="6" y="8" width="28" height="2" rx="1" fill="#e0e0e0"/>
+            <rect x="6" y="14" width="20" height="2" rx="1" fill="#e0e0e0"/>
+            <rect x="6" y="20" width="28" height="1.5" rx="0.75" fill="#eeeeee"/>
+            <rect x="6" y="24" width="24" height="1.5" rx="0.75" fill="#eeeeee"/>
+            <rect x="6" y="28" width="28" height="1.5" rx="0.75" fill="#eeeeee"/>
+            <rect x="6" y="32" width="18" height="1.5" rx="0.75" fill="#eeeeee"/>
+            <rect x="6" y="38" width="12" height="2" rx="1" fill="#e0e0e0"/>
+          </svg>
+          <p>Fill in the form to preview your contract</p>
+        </div>
+        <div class="preview-scroll" id="livePreview" style="display:none;"></div>
+      </div>
+      <div class="preview-footer">
+        <button id="sidebarDownload" class="btn-download" onclick="downloadPDF()" disabled>
+          <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M7 1v8M4 6l3 3 3-3M2 11h10" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+          Download PDF
+        </button>
+        <p class="download-hint" id="downloadHint">Complete all 5 steps to download</p>
+      </div>
+    </div>
+
+  </div><!-- /sidebar -->
+</div><!-- /page -->
+
+<!-- ── WHY FREELANCERS TRUST CLEARCLAUSE ── -->
+<div class="trust-section-wrap">
+  <div class="trust-section">
+    <div class="trust-section-header">
+      <h2>Why freelancers trust ClearClause</h2>
+      <p>Built for independent professionals who need professional protection without the lawyer fees.</p>
+    </div>
+    <div class="trust-grid">
+
+      <div class="trust-item">
+        <div class="trust-icon">
+          <svg viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M8 1.5L2 4v4c0 3.3 2.5 6.4 6 7 3.5-.6 6-3.7 6-7V4L8 1.5z" stroke="#1f4fff" stroke-width="1.5" stroke-linejoin="round"/>
+            <path d="M5.5 8l2 2 3.5-3.5" stroke="#1f4fff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </div>
+        <div class="trust-text">
+          <strong>No signup required</strong>
+          <span>Generate and download contracts without creating an account or sharing your email.</span>
+        </div>
+      </div>
+
+      <div class="trust-item">
+        <div class="trust-icon">
+          <svg viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <rect x="2" y="3" width="12" height="10" rx="1.5" stroke="#1f4fff" stroke-width="1.5"/>
+            <path d="M5 7h6M5 10h4" stroke="#1f4fff" stroke-width="1.5" stroke-linecap="round"/>
+          </svg>
+        </div>
+        <div class="trust-text">
+          <strong>Data stays on your device</strong>
+          <span>Contracts are generated in your browser. Nothing is sent to any server — ever.</span>
+        </div>
+      </div>
+
+      <div class="trust-item">
+        <div class="trust-icon">
+          <svg viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M13 3L6 11 3 8" stroke="#1f4fff" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </div>
+        <div class="trust-text">
+          <strong>Unlimited free downloads</strong>
+          <span>No paywalls, no watermarks, no hidden fees. Generate as many contracts as you need.</span>
+        </div>
+      </div>
+
+      <div class="trust-item">
+        <div class="trust-icon">
+          <svg viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="8" cy="8" r="5.5" stroke="#1f4fff" stroke-width="1.5"/>
+            <path d="M8 5v3.5l2 1.5" stroke="#1f4fff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </div>
+        <div class="trust-text">
+          <strong>Generate in under 3 minutes</strong>
+          <span>5 steps. Instant preview. Download a clean, print-ready PDF immediately.</span>
+        </div>
+      </div>
+
+      <div class="trust-item">
+        <div class="trust-icon">
+          <svg viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M8 2v3M8 11v3M2 8h3M11 8h3" stroke="#1f4fff" stroke-width="1.5" stroke-linecap="round"/>
+            <circle cx="8" cy="8" r="2.5" stroke="#1f4fff" stroke-width="1.5"/>
+          </svg>
+        </div>
+        <div class="trust-text">
+          <strong>6 contract types</strong>
+          <span>Tailored templates for design, photography, web dev, copywriting, social media, and consulting.</span>
+        </div>
+      </div>
+
+      <div class="trust-item">
+        <div class="trust-icon">
+          <svg viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M3 4h10M3 8h7M3 12h5" stroke="#1f4fff" stroke-width="1.5" stroke-linecap="round"/>
+          </svg>
+        </div>
+        <div class="trust-text">
+          <strong>Updated for 2026</strong>
+          <span>Contract clauses reviewed and updated annually to reflect current standards and best practices.</span>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+<!-- BOTTOM AD -->
+<div class="ad-wrap" style="border-top:1px solid var(--border); margin-top:8px;">
+  <div class="ad-zone ad-leader">Advertisement — 728×90</div>
+</div>
+
+<footer>
+  <div class="footer-links">
+    <a href="faq.html">FAQs</a>
+    <a href="privacy.html">Privacy Policy</a>
+    <a href="terms.html">Terms of Use</a>
+  </div>
+  <p>ClearClause © 2026 — Free freelance contract generator. Not legal advice. Consult a qualified attorney for your specific situation.</p>
+</footer>
+
+<script>
+  // ── STATE ──
+  let step = 1;
+  let cType = 'general';
+  let hasReachedStep5 = false;
+  const TOTAL = 5;
+
+  const TYPE_NAMES = {
+    general:     'Freelance Services Agreement',
+    webdesign:   'Digital Products & Web Design Agreement',
+    graphic:     'Graphic Design & Branding Agreement',
+    photography: 'Photo Shoots & Events Agreement',
+    copywriting: 'Content Writing & Copywriting Agreement',
+    socialmedia: 'Social Media Management Agreement'
+  };
+
+  const PAYMENT_TEXT = {
+    '50-50':  'fifty percent (50%) of the total fee is due upon signing this Agreement, and the remaining fifty percent (50%) upon final delivery and acceptance.',
+    '100up':  'one hundred percent (100%) of the total fee is due upon signing this Agreement before any work commences.',
+    'thirds': 'thirty-three percent (33%) is due upon signing, thirty-three percent (33%) at the project midpoint, and the remaining thirty-four percent (34%) upon final delivery.',
+    'net30':  'full payment is due within thirty (30) days of final delivery.',
+    'net15':  'full payment is due within fifteen (15) days of final delivery.'
+  };
+
+  const IP_TEXT = {
+    'client-paid':      'Upon receipt of full and final payment, Freelancer hereby assigns to Client all intellectual property rights, including copyright, in the deliverables.',
+    'freelancer-until': 'Freelancer retains all intellectual property rights in the deliverables until full payment is received in cleared funds. Upon full payment, all rights transfer to Client.',
+    'license-only':     'Freelancer retains all intellectual property rights. Client receives a non-exclusive, non-transferable license to use the deliverables for their stated business purpose only.'
+  };
+
+  const CONF_TEXT = {
+    'mutual':      'Both parties agree to treat as confidential all proprietary or sensitive information shared during this engagement and not to disclose it to third parties without prior written consent.',
+    'client-only': 'Freelancer agrees to keep all Client information, project details, and business data confidential and not to disclose them to any third party.',
+    'none':        ''
+  };
+
+  // ── NAVIGATION ──
+  function go(n) {
+    document.getElementById('step' + step).classList.remove('active');
+    step = n;
+    document.getElementById('step' + step).classList.add('active');
+
+    if (step === 5) hasReachedStep5 = true;
+
+    updateStepIndicator();
+    updateDownloadBtn();
+    updatePreview();
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  }
+
+  function updateStepIndicator() {
+    for (let i = 1; i <= TOTAL; i++) {
+      const si = document.getElementById('si' + i);
+      si.classList.remove('active', 'done');
+      if (i < step) si.classList.add('done');
+      else if (i === step) si.classList.add('active');
+    }
+    for (let i = 1; i < TOTAL; i++) {
+      const sc = document.getElementById('sc' + i);
+      if (sc) sc.classList.toggle('done', i < step);
+    }
+  }
+
+  function pickType(el, type) {
+    document.querySelectorAll('.type-pill').forEach(c => c.classList.remove('selected'));
+    el.classList.add('selected');
+    cType = type;
+    updatePreview();
+  }
+
+  // ── DOWNLOAD BUTTON STATE ──
+  function updateDownloadBtn() {
+    const btn = document.getElementById('sidebarDownload');
+    const hint = document.getElementById('downloadHint');
+    if (hasReachedStep5) {
+      btn.disabled = false;
+      hint.classList.add('hidden');
+    } else {
+      btn.disabled = true;
+      hint.classList.remove('hidden');
+    }
+  }
+
+  // ── HELPERS ──
+  function v(id) { const e = document.getElementById(id); return e ? (e.value || '') : ''; }
+
+  function fmtDate(val) {
+    if (!val) return null;
+    const d = new Date(val + 'T12:00:00');
+    return d.toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' });
+  }
+
+  // ── CONTRACT GENERATOR ──
+  function buildContract() {
+    const contractDate = fmtDate(v('tDate')) || new Date().toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' });
+    const fName    = v('fName')    || '[FREELANCER NAME]';
+    const fBiz     = v('fBiz');
+    const fParty   = fBiz ? `${fName} d/b/a ${fBiz}` : fName;
+    const fEmail   = v('fEmail');
+    const fAddress = v('fAddress');
+    const cName    = v('cName')    || '[CLIENT NAME]';
+    const cCompany = v('cCompany');
+    const cParty   = cCompany ? `${cName} (${cCompany})` : cName;
+    const cEmail   = v('cEmail');
+    const cAddress = v('cAddress');
+    const desc     = v('pDesc')    || '[PROJECT DESCRIPTION AND DELIVERABLES]';
+    const startD   = fmtDate(v('pStart')) || '[START DATE]';
+    const endD     = fmtDate(v('pEnd'))   || '[END DATE]';
+    const revs     = v('pRevisions') || '2';
+    const revText  = revs === 'unlimited' ? 'unlimited revision rounds' : `${revs} round${revs !== '1' ? 's' : ''} of revisions`;
+    const fee      = v('pFee')      || '[PROJECT FEE]';
+    const currency = v('pCurrency') || 'USD';
+    const struct   = v('pStructure') || '50-50';
+    const payStr   = PAYMENT_TEXT[struct] || PAYMENT_TEXT['50-50'];
+    const late     = v('pLate')    || '1.5% per month';
+    const kill     = v('pKill')    || '50% of remaining balance';
+    const ip       = IP_TEXT[v('tIP')] || IP_TEXT['client-paid'];
+    const conf     = CONF_TEXT[v('tConf')] || CONF_TEXT['mutual'];
+    const portfolio = v('tPortfolio') === 'no'
+      ? 'Freelancer shall NOT use or display this work in their portfolio or promotional materials without prior written consent from Client.'
+      : 'Freelancer may display the completed deliverables in their portfolio and promotional materials.';
+    const juris = v('tJurisdiction') || '[GOVERNING JURISDICTION]';
+    const title = TYPE_NAMES[cType] || 'Freelance Services Agreement';
+
+    let sectionNum = 1;
+    const sec = (t) => `<h4>${sectionNum++}. ${t}</h4>`;
+
+    return `
+      <div class="contract-doc">
+        <h2>${title}</h2>
+        <p class="eff-date">Effective Date: ${contractDate}</p>
+        <p>This Agreement is entered into as of <strong>${contractDate}</strong> between:</p>
+        <p style="margin:8px 0;"><strong>Freelancer:</strong> ${fParty}${fEmail ? ` &bull; ${fEmail}` : ''}${fAddress ? ` &bull; ${fAddress}` : ''}</p>
+        <p style="margin:8px 0 16px;"><strong>Client:</strong> ${cParty}${cEmail ? ` &bull; ${cEmail}` : ''}${cAddress ? ` &bull; ${cAddress}` : ''}</p>
+        <p>The parties agree to the following terms:</p>
+
+        ${sec('Services')}
+        <p>Freelancer agrees to provide the following services and deliverables ("Services") to Client:</p>
+        <p style="margin:8px 24px; font-style:italic; color:#444;">${desc}</p>
+        <p>Project timeline: ${startD} through ${endD}. The Services include ${revText} at no additional charge. Additional revision rounds shall be billed at Freelancer's standard hourly rate.</p>
+
+        ${sec('Compensation')}
+        <p>Client agrees to pay Freelancer a total fee of <strong>${fee} ${currency}</strong> for the Services. Payment shall be structured as follows: ${payStr}</p>
+        ${late !== 'none' ? `<p>Invoices not paid by the due date shall accrue a late fee of <strong>${late}</strong> until paid in full.</p>` : ''}
+
+        ${sec('Cancellation & Kill Fee')}
+        ${kill !== 'none'
+          ? `<p>If Client cancels or terminates this Agreement after work has commenced, Client agrees to pay a kill fee of <strong>${kill}</strong> within 14 days of cancellation.</p>`
+          : `<p>Either party may terminate this Agreement with 7 days written notice. No kill fee applies.</p>`}
+
+        ${sec('Intellectual Property')}
+        <p>${ip}</p>
+        <p>${portfolio}</p>
+
+        ${conf ? `${sec('Confidentiality')}<p>${conf}</p>` : ''}
+
+        ${sec('Independent Contractor')}
+        <p>Freelancer is an independent contractor and not an employee, partner, or agent of Client. Freelancer is solely responsible for all taxes, insurance, and withholdings on fees received under this Agreement.</p>
+
+        ${sec('Client Responsibilities')}
+        <p>Client agrees to provide timely feedback, approvals, and any materials or access necessary for Freelancer to complete the Services. Delays caused by Client may extend the project timeline accordingly, without penalty to Freelancer.</p>
+
+        ${sec('Warranties')}
+        <p>Freelancer warrants that the Services will be original work and will not knowingly infringe any third-party rights. Client warrants that all materials provided are owned by Client or that Client has the right to use them.</p>
+
+        ${sec('Limitation of Liability')}
+        <p>Freelancer's total aggregate liability under this Agreement shall not exceed the total fees paid by Client hereunder. In no event shall either party be liable for indirect, incidental, consequential, or punitive damages.</p>
+
+        ${sec('Governing Law & Dispute Resolution')}
+        <p>This Agreement shall be governed by the laws of <strong>${juris}</strong>. Any dispute shall first be subject to good-faith negotiation. If unresolved, disputes shall be submitted to binding arbitration in ${juris}.</p>
+
+        ${sec('Entire Agreement')}
+        <p>This Agreement constitutes the entire agreement between the parties and supersedes all prior negotiations and agreements. Any amendment must be in writing and signed by both parties.</p>
+
+        <div class="sig-grid">
+          <div class="sig-block">
+            <p><strong>Freelancer</strong></p>
+            <p style="margin-top:32px; border-top:1px solid #999; padding-top:6px;">Signature</p>
+            <p>Printed name: ${fName}</p>
+            <p>Date: _________________</p>
+          </div>
+          <div class="sig-block">
+            <p><strong>Client</strong></p>
+            <p style="margin-top:32px; border-top:1px solid #999; padding-top:6px;">Signature</p>
+            <p>Printed name: ${cName}</p>
+            <p>Date: _________________</p>
+          </div>
+        </div>
+
+        <p class="gen-note">Generated by ClearClause.co &mdash; Template for informational purposes only. Not legal advice. Consult a qualified attorney for your specific situation.</p>
+      </div>
+    `;
+  }
+
+  // ── LIVE PREVIEW ──
+  function updatePreview() {
+    const placeholder = document.getElementById('previewPlaceholder');
+    const liveEl = document.getElementById('livePreview');
+    // Show placeholder only on step 1 before any field is filled
+    const hasData = v('fName') || v('cName') || v('pDesc') || v('pFee');
+    if (step === 1 && !hasData) {
+      placeholder.style.display = 'flex';
+      liveEl.style.display = 'none';
+    } else {
+      placeholder.style.display = 'none';
+      liveEl.style.display = 'block';
+      liveEl.innerHTML = buildContract();
+    }
+  }
+
+  // ── DOWNLOAD / PRINT ──
+  function downloadPDF() {
+    const win = window.open('', '_blank');
+    win.document.write(`<!DOCTYPE html><html lang="en"><head>
+      <meta charset="UTF-8">
+      <title>${TYPE_NAMES[cType] || 'Freelance Contract'} — ClearClause</title>
+      <style>
+        * { margin:0; padding:0; box-sizing:border-box; }
+        body { font-family: Georgia,'Times New Roman',serif; font-size:12px; line-height:1.8; color:#111; padding:52px 64px; max-width:820px; margin:0 auto; }
+        h2 { text-align:center; font-size:15px; letter-spacing:0.12em; text-transform:uppercase; margin-bottom:4px; }
+        .eff-date { text-align:center; font-size:11px; color:#666; margin-bottom:26px; }
+        h4 { font-size:11px; text-transform:uppercase; letter-spacing:0.08em; border-bottom:1px solid #ccc; padding-bottom:3px; margin:22px 0 8px; }
+        p { margin-bottom:9px; }
+        .sig-grid { display:grid; grid-template-columns:1fr 1fr; gap:52px; margin-top:52px; }
+        .sig-block p { margin-bottom:4px; }
+        .gen-note { font-size:10px; color:#bbb; text-align:center; margin-top:36px; }
+        @page { margin: 0.75in; }
+        @media print { body { padding: 0; } }
+      </style>
+    </head><body>
+      ${buildContract()}
+      <script>window.onload=function(){setTimeout(function(){window.print();},400);}<\/script>
+    </body></html>`);
+    win.document.close();
+  }
+
+  // ── INIT ──
+  document.addEventListener('DOMContentLoaded', function () {
+    const today = new Date().toISOString().split('T')[0];
+    document.getElementById('tDate').value = today;
+    document.getElementById('pStart').value = today;
+    updateDownloadBtn();
+  });
+</script>
+</body>
+</html>
