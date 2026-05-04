@@ -96,6 +96,8 @@
       transition: all 0.15s;
     }
     .faq-btn:hover { background: var(--blue); color: #fff; }
+    .faq-btn.active { background: var(--blue); color: #fff; }
+    .header-nav { display: flex; gap: 8px; }
 
     /* ── ADS ── */
     .ad-zone {
@@ -474,7 +476,10 @@
   <a href="/" class="logo">
     <span class="logo-clear">Clear</span><span class="logo-clause">Clause</span>
   </a>
-  <a href="/faq.html" class="faq-btn">FAQs</a>
+  <div class="header-nav">
+    <a href="/" class="faq-btn active">Contract Generator</a>
+    <a href="/faq.html" class="faq-btn">FAQs</a>
+  </div>
 </header>
 
 <!-- TOP AD -->
