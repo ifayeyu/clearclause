@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About ClearClause — Free Freelance Contract Generator</title>
+  <meta name="description" content="ClearClause is a free, browser-based freelance contract generator built to help independent contractors create professional contracts in minutes — no signup, no cost.">
+  <link rel="canonical" href="https://clearclause.co/about.html">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- Google AdSense -->
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6095140459786991" crossorigin="anonymous"></script>
+
+  <style>
+    *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+    :root {
+      --blue: #2563eb; --blue-hover: #1d4ed8; --blue-light: #eff6ff; --blue-border: #bfdbfe;
+      --text: #111827; --text2: #374151; --muted: #6b7280;
+      --border: #e5e7eb; --bg: #f3f4f6; --card: #ffffff;
+      --radius: 12px; --shadow: 0 1px 3px rgba(0,0,0,0.08), 0 4px 24px rgba(0,0,0,0.06);
+    }
+    body { font-family: 'Inter', -apple-system, sans-serif; background: var(--bg); color: var(--text); font-size: 14px; line-height: 1.6; }
+
+    header { background: #fff; border-bottom: 1px solid var(--border); padding: 0 32px; height: 58px; display: flex; align-items: center; justify-content: space-between; position: sticky; top: 0; z-index: 100; }
+    .logo { font-size: 22px; font-weight: 800; text-decoration: none; letter-spacing: -0.5px; }
+    .logo-clear { color: var(--text); } .logo-clause { color: var(--blue); }
+    .nav-btn { font-size: 13px; font-weight: 600; color: var(--blue); text-decoration: none; padding: 7px 20px; border: 1.5px solid var(--blue); border-radius: 999px; transition: all 0.15s; }
+    .nav-btn:hover { background: var(--blue); color: #fff; }
+
+    .ad-zone { background: #f9fafb; border: 1.5px dashed var(--border); display: flex; align-items: center; justify-content: center; color: var(--muted); font-size: 11px; border-radius: 8px; letter-spacing: 0.04em; }
+    .ad-leader { width: 100%; max-width: 728px; height: 90px; }
+    .ad-center { display: flex; justify-content: center; padding: 12px 24px; background: #fff; border-bottom: 1px solid var(--border); }
+    .ad-center.bottom { border-bottom: none; border-top: 1px solid var(--border); }
+
+    .page-hero { text-align: center; padding: 44px 20px 32px; max-width: 820px; margin: 0 auto; }
+    .page-hero h1 { font-size: 32px; font-weight: 800; letter-spacing: -0.5px; line-height: 1.2; margin-bottom: 12px; }
+    .page-hero h1 em { color: var(--blue); font-style: normal; }
+    .page-hero p { font-size: 15px; color: var(--muted); max-width: 580px; margin: 0 auto; }
+
+    .wrap { max-width: 820px; margin: 0 auto; padding: 0 20px 80px; }
+
+    .article-card { background: var(--card); border: 1px solid var(--border); border-radius: var(--radius); box-shadow: var(--shadow); padding: 40px 44px; margin-bottom: 16px; }
+    @media (max-width: 600px) { .article-card { padding: 24px 20px; } }
+
+    .article-card h2 { font-size: 18px; font-weight: 700; color: var(--text); margin: 32px 0 10px; padding-top: 24px; border-top: 1px solid var(--border); }
+    .article-card h2:first-child { margin-top: 0; padding-top: 0; border-top: none; }
+    .article-card h3 { font-size: 15px; font-weight: 600; color: var(--text2); margin: 18px 0 8px; }
+    .article-card p { font-size: 14px; color: var(--muted); margin-bottom: 12px; line-height: 1.8; }
+    .article-card ul { font-size: 14px; color: var(--muted); margin: 8px 0 14px 20px; line-height: 1.85; }
+    .article-card ul li { margin-bottom: 6px; }
+    .article-card a { color: var(--blue); text-decoration: none; }
+    .article-card a:hover { text-decoration: underline; }
+    strong { color: var(--text2); }
+
+    .highlight-box { background: var(--blue-light); border-left: 3px solid var(--blue); border-radius: 0 8px 8px 0; padding: 14px 18px; margin: 16px 0; font-size: 13px; color: var(--text2); line-height: 1.7; }
+
+    .cta-box { background: var(--blue-light); border: 1px solid var(--blue-border); border-radius: var(--radius); padding: 24px 28px; text-align: center; margin: 24px 0; }
+    .cta-box p { color: var(--text2); margin-bottom: 14px; font-size: 14px; }
+    .cta-btn { display: inline-block; background: var(--blue); color: #fff; font-weight: 600; font-size: 14px; padding: 10px 24px; border-radius: 999px; text-decoration: none; transition: background 0.15s; }
+    .cta-btn:hover { background: var(--blue-hover); text-decoration: none; }
+
+    footer { background: #fff; border-top: 1px solid var(--border); padding: 28px 32px; text-align: center; }
+    .footer-links { display: flex; gap: 20px; justify-content: center; margin-bottom: 10px; flex-wrap: wrap; }
+    .footer-links a { font-size: 13px; color: var(--blue); text-decoration: none; font-weight: 500; }
+    .footer-links a:hover { text-decoration: underline; }
+    .footer-copy { font-size: 12px; color: var(--muted); }
+  </style>
+</head>
+<body>
+
+<header>
+  <a href="/" class="logo"><span class="logo-clear">Clear</span><span class="logo-clause">Clause</span></a>
+  <nav style="display:flex;gap:8px;">
+    <a href="/" class="nav-btn">Contract Generator</a>
+    <a href="/faq.html" class="nav-btn">FAQs</a>
+  </nav>
+</header>
+
+<div class="ad-center">
+  <div class="ad-zone ad-leader">Advertisement</div>
+</div>
+
+<div class="page-hero">
+  <h1>About <em>ClearClause</em></h1>
+  <p>A free tool built to help freelancers get paid, protect their work, and grow their business with confidence.</p>
+</div>
+
+<div class="wrap">
+  <div class="article-card">
+
+    <h2>What Is ClearClause?</h2>
+    <p>ClearClause is a free, browser-based contract generator built specifically for independent freelancers and contractors. It was created to solve a simple problem: most freelancers know they need a written contract, but professional legal templates are expensive, confusing, and slow to set up. ClearClause makes it possible to generate a professional, comprehensive freelance contract in under five minutes — for free, with no account required.</p>
+    <p>The tool supports six contract types covering the most common freelance service categories: general freelance work, web design and development, graphic design, copywriting, photography, and social media management. Each contract type includes the clauses most relevant to that kind of work, pre-filled with reasonable default terms that you can customize to your specific situation.</p>
+
+    <div class="highlight-box">
+      <strong>Our approach:</strong> ClearClause runs entirely in your browser. Your contract data — client names, project details, fees — is never sent to our servers and never stored. When you close the page, your data is gone. We generate your PDF locally on your device.
+    </div>
+
+    <h2>Why We Built ClearClause</h2>
+    <p>Freelancers are the fastest-growing segment of the workforce, and the contract gap is real. Surveys consistently show that a large percentage of independent workers have experienced scope creep, disputes over deliverables, or late/non-payment — problems that a clear written agreement would have prevented or resolved. At the same time, hiring a lawyer to draft a custom contract for every new client isn't practical for most freelancers, especially those just starting out.</p>
+    <p>We built ClearClause to fill this gap. Professional, clear contracts should not be a privilege of large studios and established agencies. Every freelancer — whether they charge $500 or $50,000 per project — deserves a written agreement that protects them, sets clear expectations, and signals professionalism to their clients.</p>
+
+    <h2>What ClearClause Generates</h2>
+    <p>Every contract generated by ClearClause includes the essential elements of a professional service agreement:</p>
+    <ul>
+      <li><strong>Parties and effective date</strong> — clearly identifies the freelancer, client, and when the agreement takes effect</li>
+      <li><strong>Scope of work</strong> — the specific services to be delivered, formatted for the contract type you've selected</li>
+      <li><strong>Payment terms</strong> — total fee, deposit structure, payment schedule, accepted payment methods, and late payment policy</li>
+      <li><strong>Revision policy</strong> — the number of included revision rounds and the rate for additional revisions</li>
+      <li><strong>Timeline and deadlines</strong> — project start date, milestones, and final delivery date</li>
+      <li><strong>Intellectual property</strong> — when and how ownership of the work transfers to the client</li>
+      <li><strong>Termination clause</strong> — how either party can end the agreement and what happens financially</li>
+      <li><strong>Limitation of liability and indemnification</strong> — mutual protection from third-party claims and liability caps</li>
+      <li><strong>Signature block</strong> — space for both parties to sign and date the agreement</li>
+    </ul>
+
+    <h2>ClearClause Is Not a Law Firm</h2>
+    <p>ClearClause is a technology tool, not a legal service. The contracts it generates are templates intended to cover the most common freelance scenarios, but they cannot account for every legal jurisdiction, industry-specific requirement, or unusual contractual arrangement. Laws vary significantly by state and country, and what is enforceable in one location may not be enforceable in another.</p>
+    <p>For straightforward freelance engagements at typical rates, our templates are a solid starting point that many freelancers use successfully. For high-value contracts, complex intellectual property arrangements, or situations with significant legal risk, we strongly recommend consulting a qualified attorney. Many attorneys offer contract review services at reasonable flat fees that are well worth the investment on larger projects.</p>
+
+    <h2>Our Resources</h2>
+    <p>Beyond the contract generator, ClearClause publishes plain-English guides to the clauses and legal concepts freelancers encounter most often. These resources are designed to help you understand what you're signing — not just generate a document and move on:</p>
+    <ul>
+      <li><a href="/indemnification-clause.html">What is an indemnification clause?</a> — plain-English explanation with examples and red flags to watch for</li>
+      <li><a href="/non-compete-clause.html">Non-compete clauses explained</a> — enforceability by state, how to negotiate, and what to push back on</li>
+      <li><a href="/faq.html">Frequently asked questions</a> — answers to the most common questions about freelance contracts</li>
+    </ul>
+
+    <div class="cta-box">
+      <p>Ready to generate your freelance contract? It takes under five minutes and costs nothing.</p>
+      <a href="/" class="cta-btn">Generate Your Contract Free →</a>
+    </div>
+
+    <h2>Contact</h2>
+    <p>For questions, feedback, or partnership inquiries, reach us at <a href="mailto:hello@clearclause.co">hello@clearclause.co</a>. We read every message, even if response times vary.</p>
+
+  </div>
+</div>
+
+<div class="ad-center bottom">
+  <div class="ad-zone ad-leader">Advertisement</div>
+</div>
+
+<footer>
+  <div class="footer-links">
+    <a href="/">Contract Generator</a>
+    <a href="/about.html">About</a>
+    <a href="/faq.html">FAQs</a>
+    <a href="/non-compete-clause.html">Non-Compete Clause</a>
+    <a href="/indemnification-clause.html">Indemnification Clause</a>
+    <a href="/privacy.html">Privacy Policy</a>
+    <a href="/terms.html">Terms of Use</a>
+  </div>
+  <p class="footer-copy">ClearClause © 2026 — Free freelance contract generator. Not legal advice; consult an attorney for your specific situation.</p>
+</footer>
+
+</body>
+</html>
