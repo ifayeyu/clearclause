@@ -448,25 +448,11 @@
     }
 
     /* ── FOOTER ── */
-    footer {
-      background: #fff;
-      border-top: 1px solid var(--border);
-      padding: 20px 32px;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      flex-wrap: wrap;
-      gap: 12px;
-    }
-    .footer-copy { font-size: 12px; color: var(--muted); }
-    .footer-links { display: flex; gap: 20px; }
-    .footer-links a {
-      font-size: 13px;
-      font-weight: 500;
-      color: var(--blue);
-      text-decoration: none;
-    }
+    footer { background: #fff; border-top: 1px solid var(--border); padding: 28px 32px; text-align: center; }
+    .footer-links { display: flex; gap: 20px; justify-content: center; margin-bottom: 10px; flex-wrap: wrap; }
+    .footer-links a { font-size: 13px; color: var(--blue); text-decoration: none; font-weight: 500; }
     .footer-links a:hover { text-decoration: underline; }
+    .footer-copy { font-size: 12px; color: var(--muted); }
   </style>
 </head>
 <body>
@@ -613,8 +599,8 @@
 
 <!-- FOOTER -->
 <footer>
-  <span class="footer-copy">Free Freelance Contract Generator © 2026 — Not legal advice. Consult a qualified attorney for your specific situation.</span>
   <div class="footer-links">
+    <a href="/">Contract Generator</a>
     <a href="/about.html">About</a>
     <a href="/faq.html">FAQs</a>
     <a href="/non-compete-clause.html">Non-Compete Clause</a>
@@ -622,6 +608,7 @@
     <a href="/privacy.html">Privacy Policy</a>
     <a href="/terms.html">Terms of Use</a>
   </div>
+  <p class="footer-copy">ClearClause &copy; 2026 &mdash; Free freelance contract generator. Not legal advice; consult an attorney for your specific situation.</p>
 </footer>
 
 <script>
